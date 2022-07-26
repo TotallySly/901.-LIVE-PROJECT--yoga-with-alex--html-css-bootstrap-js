@@ -46,3 +46,7 @@ Link to the live [Yoga with Alex - Website](https://totallysly.github.io/901.-LI
     -   [Acknowledgments](#acknowledgements)
 
 ---
+
+## UX and UI Design
+
+The owner of the website, Alex, has tasked me with designing and implementing a Yoga website and shop. I have been given complete control and autonomy of the design process. This is from initial concept to completion of a live website. I will, however, be in constant dialogue with the client, as she details which aesthetics she does, or does not like.
