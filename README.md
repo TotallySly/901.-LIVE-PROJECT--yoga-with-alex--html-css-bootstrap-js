@@ -54,3 +54,61 @@ The owner of the website, Alex, has tasked me with designing and implementing a 
 I have researched various Yoga websites before creating any concepts - of which you can view below. I have come to the conclusion that images need to be large. These the the main attraction to the website. The length of text does vary, but I like a more 'less is more' approach. As such, text will be kept as minimal as possible.
 
 All websites are heavy on promotional items. The website I am creating is for someone who has just started her Yoga teacher journey. We have agreed that sign-ups and promotional items are not at the forefront for her needs at this stage. She would just like some form of online presence to be competitive with smaller Yoga teachers, and to inform users of her weekly classes or events she is hosting.
+
+---
+
+### Website Owner Goals
+
+-   To \***\*WRITE ABOUT WEBSITE OWNER GOALS **\*\*\*\*\*\*
+-   To \***\*WRITE ABOUT WEBSITE OWNER GOALS **\*\*\*\*\*\*
+
+---
+
+### External User Goals
+
+-   To \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
+-   To \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
+
+---
+
+### User Stories
+
+-   As a user of the website, I want to \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
+-   As a user of the website, I want to \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
+
+---
+
+### Potential Features to Use
+
+-   **\*\*\*\***WRITE ABOUT POTENTIAL FEATURES HERE\***\*\*\*\*\*\***
+
+---
+
+### Wireframes
+
+All three of my wireframes are very basic mock-ups. I was concerned with creating the layout, rather than a content.
+
+I originally drew my mock-ups by hand. I then created a digital mock-up using Balsamiq.
+
+<details>
+  <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](\***\_WIREFRAME IMAGE**)
+
+</details>
+
+<details>
+ <summary>Tablet Wireframe</summary>
+
+![Tablet Wireframe](\***\_WIREFRAME IMAGE**)
+
+ </details>
+
+<details>
+ <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](\***\_WIREFRAME IMAGE**)
+
+</details>
+
+---
