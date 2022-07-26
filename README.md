@@ -50,3 +50,7 @@ Link to the live [Yoga with Alex - Website](https://totallysly.github.io/901.-LI
 ## UX and UI Design
 
 The owner of the website, Alex, has tasked me with designing and implementing a Yoga website and shop. I have been given complete control and autonomy of the design process. This is from initial concept to completion of a live website. I will, however, be in constant dialogue with the client, as she details which aesthetics she does, or does not like.
+
+I have researched various Yoga websites before creating any concepts - of which you can view below. I have come to the conclusion that images need to be large. These the the main attraction to the website. The length of text does vary, but I like a more 'less is more' approach. As such, text will be kept as minimal as possible.
+
+All websites are heavy on promotional items. The website I am creating is for someone who has just started her Yoga teacher journey. We have agreed that sign-ups and promotional items are not at the forefront for her needs at this stage. She would just like some form of online presence to be competitive with smaller Yoga teachers, and to inform users of her weekly classes or events she is hosting.
