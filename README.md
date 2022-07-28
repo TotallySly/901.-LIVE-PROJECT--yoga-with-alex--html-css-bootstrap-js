@@ -86,29 +86,11 @@ All websites are heavy on promotional items. The website I am creating is for so
 
 ### Wireframes
 
-All three of my wireframes are very basic mock-ups. I was concerned with creating the layout, rather than a content.
-
-I originally drew my mock-ups by hand. I then created a digital mock-up using Balsamiq.
+I used the Mockflow website and app to create my wireframes. As I am a basic user, I am limited in how I can present my wireframes (something that will be changed as I continue to grow my skills). As such, there is one image that has the wireframe for Desktop as well as Mobile devices. I have not created any wireframes for Tablet devices. That is because the website will try and take most of the aspects from the Desktop design, and if this does not create a nice aesthetic, then I will use the layout for Mobile devices.
 
 <details>
   <summary>Wireframes</summary>
 
 ![Wireframe](/assets/images/readme-images/yoga-with-alex--wireframe.png)
 
-</details>
-
-<details>
- <summary>Tablet Wireframe</summary>
-
-![Tablet Wireframe](\***\_WIREFRAME IMAGE**)
-
  </details>
-
-<details>
- <summary>Mobile Wireframe</summary>
-
-![Mobile Wireframe](\***\_WIREFRAME IMAGE**)
-
-</details>
-
----
