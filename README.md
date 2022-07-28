@@ -106,3 +106,7 @@ The hero image will be a carousel of images, using the Bootstrap framework. Each
 <i>About Me</i>
 
 This section will have a nice profile photo of the client in the centre of the page. Around the photo will be various different 'About Me' paragraphs.
+
+<i>Classes</i>
+
+This section has been the hardest to plan for. I have come up with an idea of using a 'timeline' style, akin to inspiration from [Jeff Glenn - Panel Timeline](https://codepen.io/jeffglenn/pen/KNYoKa) and [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview). The idea that the the user clicks on the day of the week, and it expands to display information about the client's classes for that day.
