@@ -154,3 +154,19 @@ The design of this should be responsive enough that it is the same as the Deskto
 <i>Shop</i>
 
 See information regarding the shop within the Desktop part of this section.
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgments
+
+1). [Jeff Glenn - Panel Timeline](https://codepen.io/jeffglenn/pen/KNYoKa)
+
+-   Help massively with how display the Yoga Classes.
+
+2). [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview)
+
+-   Help massively with how display the Yoga Classes.
