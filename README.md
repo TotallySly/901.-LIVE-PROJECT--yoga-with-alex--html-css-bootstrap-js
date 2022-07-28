@@ -97,6 +97,12 @@ I used the Mockflow website and app to create my wireframes. As I am a basic use
 
 **Desktop Devices**
 
+<i>Hero Image</i>
+
 The navigation bar and logo will remain 'sticky' ensuring that the user can navigate with ease. The logo will remain to help create the familiarity between the user and the client.
 
 The hero image will be a carousel of images, using the Bootstrap framework. Each image will be of the client in various yoga poses. The carousel of images will also act as a 'secondary' navigation bar. Each photo will be related to each section of the website with a button to help it stand out.
+
+<i>About Me</i>
+
+This section will have a nice profile photo of the client in the centre of the page. Around the photo will be various different 'About Me' paragraphs.
