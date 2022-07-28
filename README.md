@@ -91,9 +91,9 @@ All three of my wireframes are very basic mock-ups. I was concerned with creatin
 I originally drew my mock-ups by hand. I then created a digital mock-up using Balsamiq.
 
 <details>
-  <summary>Desktop Wireframe</summary>
+  <summary>Wireframes</summary>
 
-![Desktop Wireframe](\***\_WIREFRAME IMAGE**)
+![Wireframe](/assets/images/readme-images/yoga-with-alex--wireframe.png)
 
 </details>
 
