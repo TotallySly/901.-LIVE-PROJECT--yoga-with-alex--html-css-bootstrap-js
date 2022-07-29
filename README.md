@@ -59,15 +59,19 @@ All websites are heavy on promotional items. The website I am creating is for so
 
 ### Website Owner Goals
 
--   To \***\*WRITE ABOUT WEBSITE OWNER GOALS **\*\*\*\*\*\*
--   To \***\*WRITE ABOUT WEBSITE OWNER GOALS **\*\*\*\*\*\*
+-   To own a website that she can use to promote herself as a Yoga teacher.
+-   To display information regarding where she is teaching.
+-   To display information regarding any special events or workshops coming up.
+-   To sell different crochet or knitted Yoga items she hand makes.
 
 ---
 
 ### External User Goals
 
--   To \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
--   To \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
+-   To view the information and credentials of the client.
+-   To gather information regarding the client's Yoga classes. Dates/times/location etc etc.
+-   To gather information about upcoming events and workshops.
+-   To have different forms of contact with the client. I.e. email / social media / contact form.
 
 ---
 
@@ -165,8 +169,8 @@ See information regarding the shop within the Desktop part of this section.
 
 1). [Jeff Glenn - Panel Timeline](https://codepen.io/jeffglenn/pen/KNYoKa)
 
--   Help massively with how display the Yoga Classes.
+-   Helped massively with how display the Yoga Classes.
 
 2). [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview)
 
--   Help massively with how display the Yoga Classes.
+-   Helped massively with how display the Yoga Classes.
