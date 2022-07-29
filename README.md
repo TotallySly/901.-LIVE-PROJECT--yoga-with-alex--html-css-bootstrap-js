@@ -177,6 +177,8 @@ The colour scheme will match that of representing Yoga. Calming, peaceful and ea
 
  </details>
 
+I am using this font that is available on the Google fonts website. The client prefers slim and minimalist fonts. We both researched the different fonts and settled on Zen Loop. Zen also tying in massively to the theme of the website - yoga!
+
 ## Credits
 
 ### Content
@@ -185,10 +187,14 @@ The colour scheme will match that of representing Yoga. Calming, peaceful and ea
 
 ### Acknowledgments
 
-1). [Jeff Glenn - Panel Timeline](https://codepen.io/jeffglenn/pen/KNYoKa)
+1). [Adam Greenough - Toolkit Addy](https://toolkit.addy.codes/)
+
+-   His excellently curated website that provides an extremely large bank of fantastic web development resources. My go to before Google!
+
+2). [Jeff Glenn - Panel Timeline](https://codepen.io/jeffglenn/pen/KNYoKa)
 
 -   Helped massively with how display the Yoga Classes.
 
-2). [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview)
+3). [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview)
 
 -   Helped massively with how display the Yoga Classes.
