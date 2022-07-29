@@ -75,16 +75,10 @@ All websites are heavy on promotional items. The website I am creating is for so
 
 ---
 
-### User Stories
-
--   As a user of the website, I want to \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
--   As a user of the website, I want to \***\*WRITE ABOUT EXTERNAL USER GOALS **\*\*\*\*\*\*
-
----
-
 ### Potential Features to Use
 
--   **\*\*\*\***WRITE ABOUT POTENTIAL FEATURES HERE\***\*\*\*\*\*\***
+-   Expanding cards to display the client's yoga classes.
+-   A carousel of images as a the 'hero image'.
 
 ---
 
@@ -158,6 +152,30 @@ The design of this should be responsive enough that it is the same as the Deskto
 <i>Shop</i>
 
 See information regarding the shop within the Desktop part of this section.
+
+## Design
+
+### Imagery
+
+### Colour Scheme
+
+The colour scheme will match that of representing Yoga. Calming, peaceful and earthy tones will be used. Initially, I would like to base this around blues, pinks, and different hues of white.
+
+<details>
+  <summary>Colour Pallette</summary>
+
+![Colours](COLOUR PALLETTE)
+
+ </details>
+
+### Typography
+
+<details>
+  <summary>Typography</summary>
+
+![Typography](/assets/images/readme-images/font.png)
+
+ </details>
 
 ## Credits
 
