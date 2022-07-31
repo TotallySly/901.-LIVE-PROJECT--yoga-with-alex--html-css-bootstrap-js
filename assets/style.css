@@ -9,5 +9,8 @@
 
 body {
     font-family: 'Zen Loop', cursive;
-    color: black;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
 }
