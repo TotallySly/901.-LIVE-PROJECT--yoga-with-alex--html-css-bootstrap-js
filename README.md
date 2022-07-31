@@ -153,9 +153,15 @@ The design of this should be responsive enough that it is the same as the Deskto
 
 See information regarding the shop within the Desktop part of this section.
 
+---
+
 ## Design
 
+---
+
 ### Imagery
+
+---
 
 ### Colour Scheme
 
@@ -168,6 +174,8 @@ The colour scheme will match that of representing Yoga. Calming, peaceful and ea
 
  </details>
 
+---
+
 ### Typography
 
 <details>
@@ -179,13 +187,57 @@ The colour scheme will match that of representing Yoga. Calming, peaceful and ea
 
 I am using this font that is available on the Google fonts website. The client prefers slim and minimalist fonts. We both researched the different fonts and settled on Zen Loop. Zen also tying in massively to the theme of the website - yoga!
 
+---
+
+## Features
+
+---
+
+### Existing Features
+
+---
+
+### Features Left To Implement
+
+---
+
+### Technologies Used
+
+1). [Tiny PNG](https://tinypng.com/)
+
+-   An online tool that compresses the image size of PNG files.
+
+---
+
+## Testing
+
+---
+
+### Validator Testing
+
+---
+
+### Manual Testing
+
+---
+
+### Accessibility
+
+---
+
+### Bugs
+
+---
+
+## Deployment
+
+---
+
 ## Credits
 
+---
+
 ### Content
-
-### Media
-
-### Acknowledgments
 
 1). [Adam Greenough - Toolkit Addy](https://toolkit.addy.codes/)
 
@@ -198,3 +250,15 @@ I am using this font that is available on the Google fonts website. The client p
 3). [Brad Traversy - 50 JS Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/learn/lecture/23595170#overview)
 
 -   Helped massively with how display the Yoga Classes.
+
+4). [UX Wing - Favicon](https://uxwing.com/meditation-yoga-icon/)
+
+-   Use of the favicon image.
+
+---
+
+### Media
+
+---
+
+### Acknowledgments
