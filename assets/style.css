@@ -4,6 +4,14 @@ body {
     font-family: 'Zen Loop', cursive;
 }
 
+.navbar {
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
 .carousel-image-position {
     background-repeat: no-repeat;
     background-position: center;
