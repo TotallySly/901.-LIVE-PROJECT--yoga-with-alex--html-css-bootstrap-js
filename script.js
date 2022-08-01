@@ -7,7 +7,3 @@ navMenu.forEach((element) => {
         this.classList.add('active')
     })
 })
-
-console.log(navMenu)
-
-console.log('DO I WORK')
