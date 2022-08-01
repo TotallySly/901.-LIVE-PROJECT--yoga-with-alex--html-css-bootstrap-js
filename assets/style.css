@@ -16,24 +16,34 @@ body {
     letter-spacing: 2px;
 }
 
-/* TODO PLAY AROUND WITH THE COMMENTED OUT CODE TO GET ACTIVE STATES WORKING. AFTER A SLOW MOVING IN BORDER ON TOP AND BOTTOM. OR JUST BOTTOM....
-
 .nav-link {
     letter-spacing: 2px;
-    -webkit-transition: outline 2s ease-out;
-    -moz-transition: outline 2s ease-out;
-    -o-transition: outline 2s ease-out;
-    transition: outline 2s ease-out;
-    transition: outline 2s ease-out;
+    position: relative;
 }
 
-.nav-link:hover {
-    outline: solid 1px black;
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background-color: black;
 }
 
-.active {
+.nav-link::after {
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+    transform: scale(1, 1);
+}
+
+.active::after {
     background-color: red;
-} */
+    transform: scale(1, 1);
+}
 
 /* NAV BAR END */
 
