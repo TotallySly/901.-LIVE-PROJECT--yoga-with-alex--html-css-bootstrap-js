@@ -4,13 +4,19 @@ body {
     font-family: 'Zen Loop', cursive;
 }
 
+/* NAV BAR START */
+
 .navbar {
     font-size: 2rem;
 }
 
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 3.4rem;
 }
+
+/* NAV BAR END */
+
+/* CAROUSEL START */
 
 .carousel-image-position {
     background-repeat: no-repeat;
@@ -20,4 +26,24 @@ body {
 
 .carousel-bkgrnd-image-one {
     background-image: url('/assets/images/website-images/yoga-pose-nameste-on-rock.png');
+}
+
+/* CAROUSEL END */
+
+/* Media Queries */
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand {
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 2.8rem;
+    }
 }
