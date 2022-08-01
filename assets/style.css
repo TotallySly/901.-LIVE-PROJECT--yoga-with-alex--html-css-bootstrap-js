@@ -49,6 +49,13 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     transform: scale(1, 1);
 }
 
+/* TODO - Find a good colour for the font to change into when on hover. */
+
+.nav-link:hover {
+    color: red;
+    font-weight: bold;
+}
+
 .active::after {
     background-color: red;
     transform: scale(1, 1);
