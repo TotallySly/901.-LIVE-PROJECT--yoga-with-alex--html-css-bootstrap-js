@@ -16,6 +16,8 @@ body {
     letter-spacing: 2px;
 }
 
+/* TODO PLAY AROUND WITH THE COMMENTED OUT CODE TO GET ACTIVE STATES WORKING. AFTER A SLOW MOVING IN BORDER ON TOP AND BOTTOM. OR JUST BOTTOM....
+
 .nav-link {
     letter-spacing: 2px;
     -webkit-transition: outline 2s ease-out;
@@ -31,7 +33,7 @@ body {
 
 .active {
     background-color: red;
-}
+} */
 
 /* NAV BAR END */
 
