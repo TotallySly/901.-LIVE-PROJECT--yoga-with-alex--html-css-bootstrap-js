@@ -16,7 +16,16 @@ body {
     letter-spacing: 2px;
 }
 
+/* 
+
+FROM LINE 27 TO LINE 55
+
+TODO - Need to make the underline of the nav menu smaller when the hamburger is being used.
+TODO - Need to make the colour scheme match, but the colour scheme will be used at the end of the website 
+*/
+
 .nav-link {
+    color: black;
     letter-spacing: 2px;
     position: relative;
 }

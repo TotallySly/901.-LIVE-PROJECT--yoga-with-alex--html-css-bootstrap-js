@@ -255,6 +255,10 @@ I am using this font that is available on the Google fonts website. The client p
 
 -   Use of the favicon image.
 
+5). [Candy Dev](https://www.youtube.com/watch?v=R033rKs6sgA&ab_channel=CandDev)
+
+-   Use of the underline effect on the navigation menu links.
+
 ---
 
 ### Media
