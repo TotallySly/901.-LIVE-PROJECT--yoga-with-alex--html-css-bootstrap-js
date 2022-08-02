@@ -63,8 +63,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 .carousel-image-position {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    filter: grayscale(1);
+    background-size: contain;
 }
 
 .carousel-bkgrnd-image-one {
@@ -89,6 +88,12 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 .carousel-bkgrnd-image-six {
     background-image: url('/assets/images/website-images/yoga-pose-forward\ -\ stretch.png');
+}
+
+.carousel-caption {
+    top: 15%;
+    right: 70%;
+    color: black;
 }
 
 /* CAROUSEL END */
