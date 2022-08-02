@@ -38,9 +38,6 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     left: 0;
     bottom: 0;
     background-color: black;
-}
-
-.nav-link::after {
     transform: scale(0, 1);
     transition: transform 0.3s ease;
 }
@@ -92,5 +89,15 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 @media only screen and (max-width: 600px) {
     .navbar-brand {
         font-size: 2.8rem;
+    }
+
+    .nav-link::after {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-link::after {
+        width: 7rem;
     }
 }
