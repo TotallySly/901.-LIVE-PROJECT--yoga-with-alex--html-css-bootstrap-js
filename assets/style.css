@@ -92,6 +92,13 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-image: url('/assets/images/website-images/yoga-pose-forward\ -\ stretch.png');
 }
 
+.carousel-caption {
+    font-size: 3rem;
+    color: black;
+    position: absolute;
+    top: 15%;
+}
+
 /* CAROUSEL END */
 
 /* Media Queries */
