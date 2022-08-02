@@ -19,8 +19,6 @@ body {
 /* 
 
 FROM LINE 27 TO LINE 55
-
-TODO - Need to make the underline of the nav menu smaller when the hamburger is being used.
 TODO - Need to make the colour scheme match, but the colour scheme will be used at the end of the website 
 */
 
@@ -66,10 +64,32 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 75%;
+    background-size: 95%;
 }
 
 .carousel-bkgrnd-image-one {
     background-image: url('/assets/images/website-images/yoga-pose-nameste-on-rock.png');
+}
+
+.carousel-bkgrnd-image-two {
+    background-image: url('/assets/images/website-images/yoga-pose-triangle-leg-on-rock.png');
+}
+
+.carousel-bkgrnd-image-three {
+    background-image: url('/assets/images/website-images/yoga-pose-standing-one-leg-on-rock.png');
+}
+
+.carousel-bkgrnd-image-four {
+    background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
+}
+
+.carousel-bkgrnd-image-five {
+    background-image: url('/assets/images/website-images/yoga-pose-getting-into-position-on-rock.png');
+}
+
+.carousel-bkgrnd-image-six {
+    background-image: url('/assets/images/website-images/yoga-pose-forward\ -\ stretch.png');
 }
 
 /* CAROUSEL END */
