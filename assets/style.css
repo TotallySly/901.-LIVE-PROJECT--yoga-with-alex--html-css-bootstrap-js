@@ -37,7 +37,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     bottom: 0;
     background-color: black;
     transform: scale(0, 1);
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease;
 }
 
 .nav-link:hover::after {
@@ -64,8 +64,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 75%;
-    background-size: 95%;
+    filter: grayscale(1);
 }
 
 .carousel-bkgrnd-image-one {
@@ -90,13 +89,6 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 .carousel-bkgrnd-image-six {
     background-image: url('/assets/images/website-images/yoga-pose-forward\ -\ stretch.png');
-}
-
-.carousel-caption {
-    font-size: 3rem;
-    color: black;
-    position: absolute;
-    top: 15%;
 }
 
 /* CAROUSEL END */
