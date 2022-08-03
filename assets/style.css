@@ -63,7 +63,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 .carousel-image-position {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .carousel-bkgrnd-image-one {
@@ -98,6 +98,11 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 }
 
 /* CAROUSEL END */
+
+.profile-image {
+    width: 20rem;
+    border-radius: 50%;
+}
 
 /* Media Queries */
 
