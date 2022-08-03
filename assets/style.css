@@ -99,9 +99,12 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* CAROUSEL END */
 
-.profile-image {
-    width: 20rem;
-    border-radius: 50%;
+.row {
+    border: red solid 2px;
+}
+
+.column {
+    border: aqua solid 2px;
 }
 
 /* Media Queries */
