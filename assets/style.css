@@ -107,7 +107,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     border: aqua solid 2px;
 }
 
-img {
+.about-me-image {
     border-radius: 50%;
 }
 
