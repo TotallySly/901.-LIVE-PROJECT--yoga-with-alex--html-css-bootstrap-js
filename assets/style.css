@@ -4,6 +4,18 @@ body {
     font-family: 'Zen Loop', cursive;
 }
 
+.row {
+    border: red solid 2px;
+}
+
+.column {
+    border: aqua solid 2px;
+}
+
+.test {
+    background-color: red;
+}
+
 /* NAV BAR START */
 
 .navbar {
@@ -58,64 +70,30 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* NAV BAR END */
 
-/* CAROUSEL START */
-
-.carousel-image-position {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel-bkgrnd-image-one {
-    background-image: url('/assets/images/website-images/yoga-pose-nameste-on-rock.png');
-}
-
-.carousel-bkgrnd-image-two {
-    background-image: url('/assets/images/website-images/yoga-pose-triangle-leg-on-rock.png');
-}
-
-.carousel-bkgrnd-image-three {
-    background-image: url('/assets/images/website-images/yoga-pose-standing-one-leg-on-rock.png');
-}
-
-.carousel-bkgrnd-image-four {
-    background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
-}
-
-.carousel-bkgrnd-image-five {
-    background-image: url('/assets/images/website-images/yoga-pose-getting-into-position-on-rock.png');
-}
-
-.carousel-bkgrnd-image-six {
-    background-image: url('/assets/images/website-images/yoga-pose-forward\ -\ stretch.png');
-}
-
-.carousel-caption {
-    top: 15%;
-    right: 70%;
-    color: black;
-    background-color: aqua;
-}
-
-/* CAROUSEL END */
-
-.row {
-    border: red solid 2px;
-}
-
-.column {
-    border: aqua solid 2px;
-}
-
-.about-me-image {
-    border-radius: 50%;
-}
-
-.container {
-    margin-top: 5rem;
-}
-
 /* --  CLASSES SECTION START *****DESKTOP****** */
+
+.bkground-img {
+    height: 80vh;
+    background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.position-relative-fix {
+    position: relative;
+}
+
+.position-absolute-fix {
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+}
+
+.bkground-colour {
+    background-color: #f8f8f8;
+}
 
 /* --  CLASSES SECTION END *****DESKTOP****** */
 
@@ -148,4 +126,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 }
 
 @media only screen and (max-width: 768px) {
+    .bkground-img {
+        background-image: url('/assets/images/website-images/alex-in-bamboo-seat.jpeg');
+    }
 }
