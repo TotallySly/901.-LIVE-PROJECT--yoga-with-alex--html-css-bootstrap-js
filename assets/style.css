@@ -121,6 +121,47 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* --  CLASSES SECTION END *****DESKTOP****** */
 
+.bkground-img-lg {
+    height: 80vh;
+    background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.position-relative-fix-lg {
+    position: relative;
+}
+
+.position-absolute-fix-lg {
+    position: fixed;
+    top: 20vh;
+    right: 7vw;
+}
+
+.bkground-colour-lg {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2rem;
+}
+
+.heading-lg {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+}
+
+.non-cursive-font-lg {
+    font-family: 'Overlock', cursive;
+}
+
+.cursive-font-lg {
+    font-family: 'Comforter Brush', cursive;
+    padding-left: 0.2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 400px) {
