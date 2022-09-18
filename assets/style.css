@@ -25,7 +25,6 @@ body {
 .navbar {
     font-size: 2rem;
     background: mintcream;
-    z-index: 1;
 }
 
 .navbar-brand {
@@ -75,7 +74,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* NAV BAR END */
 
-/* --  CLASSES SECTION START *****DESKTOP****** */
+/* Hero Image Section Mobile and Tablets START */
 
 .bkground-img-sm {
     height: 80vh;
@@ -84,6 +83,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    margin-bottom: 5rem;
 }
 
 .position-relative-fix-sm {
@@ -119,23 +119,22 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     letter-spacing: 0.3rem;
 }
 
-/* --  CLASSES SECTION END *****DESKTOP****** */
+/* Hero Image Section Mobile and Tablets END */
+
+/* Hero Image Section Laptops and Larger START */
 
 .bkground-img-lg {
-    height: 80vh;
+    height: 95vh;
     background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-}
-
-.position-relative-fix-lg {
-    position: relative;
+    margin-bottom: 5rem;
 }
 
 .position-absolute-fix-lg {
-    position: fixed;
+    position: absolute;
     top: 20vh;
     right: 7vw;
 }
@@ -161,6 +160,12 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     font-weight: 700;
     letter-spacing: 0.3rem;
 }
+
+/* Hero Image Section Laptops and Larger END */
+
+/*About Me Section Mobiles and Tablets START */
+
+/*About Me Section Mobiles and Tablets END */
 
 /* Media Queries */
 
