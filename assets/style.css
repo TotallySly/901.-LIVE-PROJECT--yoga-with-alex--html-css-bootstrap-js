@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+
+/* font-family: 'Homemade Apple', cursive; */
 
 body {
     font-family: 'Zen Loop', cursive;
@@ -21,6 +25,7 @@ body {
 .navbar {
     font-size: 2rem;
     background: mintcream;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -86,14 +91,35 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 }
 
 .position-absolute-fix {
-    position: absolute;
-    top: 5vh;
-    left: 20vw;
+    position: fixed;
+    top: 20vh;
+    left: 10vw;
 }
 
 .bkground-colour {
-    background-color: #f8f8f8;
+    background-color: rgba(255, 255, 255, 0.75);
     padding: 1rem;
+    max-width: 25rem;
+}
+
+.heading {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+.non-cursive-font {
+    font-family: 'Overlock', cursive;
+}
+
+.cursive-font {
+    font-family: 'Comforter Brush', cursive;
+    padding-left: 0.2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
 }
 
 /* --  CLASSES SECTION END *****DESKTOP****** */
