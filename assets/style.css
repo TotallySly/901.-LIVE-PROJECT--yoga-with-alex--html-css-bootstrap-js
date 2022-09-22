@@ -76,30 +76,10 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* Hero Image Section Mobile and Tablets START */
 
-.bkground-img-sm {
-    height: 80vh;
-    background-image: url('/assets/images/website-images/alex-in-bamboo-seat.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    margin-bottom: 5rem;
-}
-
-.position-relative-fix-sm {
-    position: relative;
-}
-
-.position-absolute-fix-sm {
-    position: fixed;
-    top: 20vh;
-    left: 10vw;
-}
-
-.bkground-colour-sm {
+.overlay-colour-sm {
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 1rem;
-    max-width: 25rem;
+    width: 15rem;
+    height: 12rem;
 }
 
 .heading-sm {
