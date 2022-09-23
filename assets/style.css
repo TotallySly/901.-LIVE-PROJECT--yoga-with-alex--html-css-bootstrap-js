@@ -81,52 +81,19 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* Hero Image Section Mobile and Tablets START */
 
-.bkground-img-sm {
-    height: 80vh;
-    background-image: url('/assets/images/website-images/alex-in-bamboo-seat.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
+.container-fluid-hero-img-md {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+    width: 100vw;
 }
 
 .bkground-img-md {
     height: 80vh;
+    width: 100%;
     background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.card {
-    width: 100vw;
-}
-
-.card-img {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.overlay-bkground-sm {
-    background-color: rgba(255, 255, 255, 0.75);
-    max-width: 13rem;
-    max-height: 10rem;
-}
-
-.overlay-text-sm {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-}
-
-/* Hero Image Section Mobile END */
-
-.overlay-bkground-md {
-    height: fit-content;
-    width: fit-content;
-}
-
-.overlay-text-md {
-    font-family: 'Questrial', sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.1rem;
+    background-size: cover;
 }
