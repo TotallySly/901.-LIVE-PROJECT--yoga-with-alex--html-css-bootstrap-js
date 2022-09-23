@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Zen Loop', cursive;
+    background-color: #d8d3cd;
 }
 
 .row {
@@ -26,11 +27,11 @@ body {
 
 .navbar {
     font-size: 2rem;
-    background: mintcream;
+    background: #e0ece4;
 }
 
 .navbar-brand {
-    font-size: 3.4rem;
+    font-size: 4rem;
     letter-spacing: 2px;
 }
 
@@ -80,6 +81,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 .card {
     border: 1px solid transparent;
+    background-color: #e7cbae;
 }
 
 .overlay-bkground-sm {
@@ -95,31 +97,3 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 }
 
 /* Hero Image Section Mobile END */
-
-/* Media Queries */
-
-@media only screen and (max-width: 400px) {
-    .navbar {
-        font-size: 1.8rem;
-    }
-
-    .navbar-brand {
-        font-size: 2.4rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .navbar-brand {
-        font-size: 2.8rem;
-    }
-
-    .nav-link::after {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .nav-link::after {
-        width: 7rem;
-    }
-}
