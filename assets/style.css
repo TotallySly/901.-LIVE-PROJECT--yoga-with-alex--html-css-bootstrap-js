@@ -12,11 +12,11 @@ body {
     color: black;
 }
 
-.row {
+.row-test {
     border: red solid 2px;
 }
 
-.column {
+.column-test {
     border: aqua solid 2px;
 }
 
@@ -81,6 +81,20 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 /* Hero Image Section Mobile and Tablets START */
 
+.bkground-img-sm {
+    height: 80vh;
+    background-image: url('/assets/images/website-images/alex-in-bamboo-seat.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bkground-img-md {
+    height: 80vh;
+    background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .card {
     width: 100vw;
 }
@@ -108,6 +122,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 
 .overlay-bkground-md {
     height: fit-content;
+    width: fit-content;
 }
 
 .overlay-text-md {
