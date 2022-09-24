@@ -22,7 +22,7 @@
 
 body {
     font-family: 'Zen Loop', cursive;
-    background-color: #d8d3cd;
+    background-color: #f7f2e7;
     color: black;
 }
 
@@ -99,18 +99,18 @@ body {
 }
 
 .rotate {
-    transform: rotate(-33deg);
+    transform: rotate(-20deg);
     /* Safari */
-    -webkit-transform: rotate(-33deg);
+    -webkit-transform: rotate(-20deg);
 
     /* Firefox */
-    -moz-transform: rotate(-33deg);
+    -moz-transform: rotate(-20deg);
 
     /* IE */
-    -ms-transform: rotate(-33deg);
+    -ms-transform: rotate(-20deg);
 
     /* Opera */
-    -o-transform: rotate(-33deg);
+    -o-transform: rotate(-20deg);
 }
 
 /* Hero Image Section END - All Devices */
@@ -126,17 +126,29 @@ body {
 
 /* About Me Section START - Laptops */
 
+.about-me-lg {
+    background-color: #f7f2e7;
+}
+
 .about-me-heading-lg {
     font-size: 6rem;
     font-family: 'Oooh Baby', cursive;
 }
 
 .about-me-text-lg {
-    margin-top: 12%;
-    margin-left: -20%;
-    background-color: blanchedalmond;
-    height: 55vh;
-    max-width: 50%;
+    background-color: yellow;
+    margin-left: -10%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+    z-index: 2;
+    max-height: 40rem;
+}
+
+.about-me-img-two {
+    position: relative;
+    top: -100;
+    left: -100;
+    z-index: 3;
 }
 
 /* About Me Section END - Laptops */
