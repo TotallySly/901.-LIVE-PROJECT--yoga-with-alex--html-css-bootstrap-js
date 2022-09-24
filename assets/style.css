@@ -137,17 +137,21 @@ body {
 
 .about-me-text-lg {
     background-color: yellow;
-    margin-left: -10%;
-    margin-top: 5%;
-    margin-bottom: -10%;
-    z-index: 2;
     max-height: 40rem;
+    position: relative;
+    left: 75;
+    z-index: 2;
+}
+
+.about-me-img-one {
+    position: relative;
+    bottom: 150;
 }
 
 .about-me-img-two {
     position: relative;
-    top: -100;
-    left: -100;
+    bottom: 275;
+    right: 300;
     z-index: 3;
 }
 
