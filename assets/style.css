@@ -2,17 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
-body {
-    font-family: 'Zen Loop', cursive;
-    background-color: #d8d3cd;
-    color: black;
-}
+/* Test Styles (to be deleted) START - All Devices */
 
-.row-test {
+.row {
     border: red solid 2px;
 }
 
-.column-test {
+.column {
     border: aqua solid 2px;
 }
 
@@ -20,7 +16,19 @@ body {
     background-color: red;
 }
 
-/* NAV BAR START */
+/* Test Styles (to be deleted) END - All Devices */
+
+/* Main Styling START - All Devices */
+
+body {
+    font-family: 'Zen Loop', cursive;
+    background-color: #d8d3cd;
+    color: black;
+}
+
+/* Main Styling END - All Devices */
+
+/* Nav Bar START - All Devices */
 
 .navbar {
     background-color: #d8d3cd;
@@ -32,12 +40,6 @@ body {
     letter-spacing: 2px;
     color: black;
 }
-
-/* 
-
-FROM LINE 27 TO LINE 55
-TODO - Need to make the colour scheme match, but the colour scheme will be used at the end of the website 
-*/
 
 .nav-link {
     color: black;
@@ -61,8 +63,6 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     transform: scale(1, 1);
 }
 
-/* TODO - Find a good colour for the font to change into when on hover. */
-
 .nav-link:hover {
     color: white;
     font-weight: bold;
@@ -73,9 +73,9 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     transform: scale(1, 1);
 }
 
-/* NAV BAR END */
+/* Nav Bar END - All Devices */
 
-/* Hero Image Section Mobile and Tablets START */
+/* Hero Image Section START - All Devices */
 
 .container-fluid-hero-img-md {
     padding-left: 0;
@@ -94,7 +94,7 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-size: cover;
 }
 
-.about-me {
+.about-me-sm {
     background-color: #f7f2e7;
 }
 
@@ -113,7 +113,30 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     -o-transform: rotate(-33deg);
 }
 
+/* Hero Image Section END - All Devices */
+
+/* About Me Section START - Mobile and Tablets */
+
 .about-me-heading-sm {
     font-size: 3rem;
     font-family: 'Oooh Baby', cursive;
 }
+
+/* About Me Section END - Mobile and Tablets */
+
+/* About Me Section START - Laptops */
+
+.about-me-heading-lg {
+    font-size: 6rem;
+    font-family: 'Oooh Baby', cursive;
+}
+
+.about-me-text-lg {
+    margin-top: 12%;
+    margin-left: -20%;
+    background-color: blanchedalmond;
+    height: 55vh;
+    max-width: 50%;
+}
+
+/* About Me Section END - Laptops */
