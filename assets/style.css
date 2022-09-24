@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
-/* font-family: 'Homemade Apple', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
 body {
     font-family: 'Zen Loop', cursive;
@@ -27,8 +23,8 @@ body {
 /* NAV BAR START */
 
 .navbar {
-    font-size: 2rem;
-    background: #e0ece4;
+    background-color: #d8d3cd;
+    font-size: 1.4rem;
 }
 
 .navbar-brand {
@@ -68,12 +64,12 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
 /* TODO - Find a good colour for the font to change into when on hover. */
 
 .nav-link:hover {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 
 .active::after {
-    background-color: red;
+    background-color: white;
     transform: scale(1, 1);
 }
 
@@ -96,4 +92,28 @@ TODO - Need to make the colour scheme match, but the colour scheme will be used 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.about-me {
+    background-color: #f7f2e7;
+}
+
+.rotate {
+    transform: rotate(-33deg);
+    /* Safari */
+    -webkit-transform: rotate(-33deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-33deg);
+
+    /* IE */
+    -ms-transform: rotate(-33deg);
+
+    /* Opera */
+    -o-transform: rotate(-33deg);
+}
+
+.about-me-heading-sm {
+    font-size: 3rem;
+    font-family: 'Oooh Baby', cursive;
 }
