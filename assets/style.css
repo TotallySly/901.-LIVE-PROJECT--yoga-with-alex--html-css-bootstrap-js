@@ -117,6 +117,10 @@ body {
 
 /* About Me Section START - Mobile and Tablets */
 
+.about-me-img-mobile {
+    width: 30rem;
+}
+
 .about-me-heading-sm {
     font-size: 3rem;
     font-family: 'Oooh Baby', cursive;
