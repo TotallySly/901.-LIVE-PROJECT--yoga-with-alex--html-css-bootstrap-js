@@ -22,7 +22,7 @@
 
 body {
     font-family: 'Zen Loop', cursive;
-    background-color: #f7f2e7;
+    background-color: #fffff0;
     color: black;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .about-me-sm {
-    background-color: #f7f2e7;
+    background-color: #fffff0;
 }
 
 .rotate {
@@ -117,6 +117,10 @@ body {
 
 /* About Me Section START - Mobile and Tablets */
 
+.about-me-text-container-sm {
+    background-color: #f7f2e7;
+}
+
 .about-me-img-mobile {
     width: 30rem;
 }
@@ -124,6 +128,21 @@ body {
 .about-me-heading-sm {
     font-size: 3rem;
     font-family: 'Oooh Baby', cursive;
+}
+
+.about-me-text-main-sm {
+    font-size: 1.4rem;
+}
+
+.about-me-text-cursive-sm {
+    font-family: 'Oooh Baby', cursive;
+}
+
+.btm-about-me-img {
+    height: 100vh;
+    background-image: url('/assets/images/website-images/childs-pose-test.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* About Me Section END - Mobile and Tablets */
@@ -160,3 +179,12 @@ body {
 }
 
 /* About Me Section END - Laptops */
+
+/* Class Schedule Section START - Mobile and Tablets */
+
+.schedule-img {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/images/website-images/autumn-schedule.jpg');
+    background-repeat: no-repeat;
+}
