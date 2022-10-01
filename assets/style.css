@@ -193,3 +193,10 @@ body {
 .yoga-classes-container-sm {
     margin-top: 5rem;
 }
+
+.size-image {
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    height: 12rem;
+    width: 17rem;
+}
