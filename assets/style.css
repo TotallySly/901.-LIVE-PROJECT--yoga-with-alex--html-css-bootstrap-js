@@ -189,3 +189,7 @@ body {
 /* About Me Section END - Laptops */
 
 /* Class Schedule Section START - Mobile and Tablets */
+
+.yoga-classes-container-sm {
+    margin-top: 5rem;
+}
