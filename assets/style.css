@@ -190,11 +190,31 @@ body {
 
 /* Class Schedule Section START - Mobile and Tablets */
 
-.yoga-classes-container-sm {
-    margin-top: 5rem;
+.yoga-classes-container {
+    font-size: 1.5rem;
+    margin-top: 15em;
 }
 
 .size-image {
     height: 12rem;
     width: 17rem;
+}
+
+.card-body > h5 {
+    font-size: 1.7rem;
+}
+
+/* Event Section Start */
+
+.events-container {
+    margin-top: 30rem;
+}
+
+.events-bkground-img {
+    height: 100vh;
+    background-color: pink;
+    background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
