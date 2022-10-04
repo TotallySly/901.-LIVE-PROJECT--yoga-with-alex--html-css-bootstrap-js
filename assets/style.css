@@ -206,15 +206,30 @@ body {
 
 /* Event Section Start */
 
-.events-container {
-    margin-top: 30rem;
-}
-
 .events-bkground-img {
+    margin-top: 30rem;
     height: 100vh;
     background-color: pink;
     background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+}
+
+.glass {
+    position: absolute;
+    width: 35rem;
+    z-index: 2;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    top: 500;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
