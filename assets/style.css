@@ -260,12 +260,4 @@ body {
     text-align: center;
 }
 
-.flexbox.container {
-    display: flex;
-}
-
-/*TODO
-FIX THE POSITION OF THE GLASS CONTAINER ON DESKTOP------ FLEXBOX???
-*/
-
 /* Event Section END - Desktop Devices */
