@@ -228,7 +228,7 @@ body {
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
     color: #fffff0;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* Event Section End - Mobile and Tablet Devices */
@@ -246,6 +246,8 @@ body {
 
 .glass {
     position: absolute;
+    top: 50%;
+    left: 33%;
     width: 35rem;
     z-index: 2;
     font-size: 3rem;
@@ -255,12 +257,11 @@ body {
     border: 2px solid transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
-    margin-left: auto;
-    margin-right: auto;
-    top: 500;
-    left: 0;
-    right: 0;
     text-align: center;
+}
+
+.flexbox.container {
+    display: flex;
 }
 
 /*TODO
