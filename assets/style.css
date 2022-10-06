@@ -204,7 +204,36 @@ body {
     font-size: 1.7rem;
 }
 
-/* Event Section Start */
+/* Event Section START - Mobile and Tablet Devices */
+
+.events-bkground-img-sm {
+    margin-top: 10rem;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+    background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset.png');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.glass-sm {
+    padding: 0.5em;
+    position: absolute;
+    bottom: 100;
+    left: 20;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    color: #fffff0;
+    font-size: 2rem;
+}
+
+/* Event Section End - Mobile and Tablet Devices */
+
+/* Event Section START - Desktop Devices */
 
 .events-bkground-img {
     margin-top: 30rem;
@@ -233,3 +262,9 @@ body {
     right: 0;
     text-align: center;
 }
+
+/*TODO
+FIX THE POSITION OF THE GLASS CONTAINER ON DESKTOP------ FLEXBOX???
+*/
+
+/* Event Section END - Desktop Devices */
