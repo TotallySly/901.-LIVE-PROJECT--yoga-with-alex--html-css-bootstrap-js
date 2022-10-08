@@ -268,12 +268,13 @@ body {
     margin-top: 15rem;
     font-size: 6rem;
     font-family: 'Oooh Baby', cursive;
+    z-index: 10;
+    position: relative;
 }
 
 /* Contact Me Section START - Desktop Devices */
 
 .contact-bkground-img {
-    z-index: -1;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -293,18 +294,23 @@ body {
 }
 
 .offerings-text-container {
+    padding: 4rem;
     margin-top: 15rem;
-    padding: 3em;
     transform: scaleX(-1);
     font-size: 1.8rem;
 }
 
 .offerings-text {
-    padding: 0.5rem;
+    padding-bottom: 2rem;
 }
 
-.contact-details {
-    padding: 1.5rem;
+.offerings-text-2 {
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.offerings-text-container > a {
+    text-decoration: none;
 }
 
 /* Contact Me Section END - Desktop Devices */
