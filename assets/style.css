@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
-/* Test Styles (to be deleted) START - All Devices */
-
-/* Main Styling START - All Devices */
+/* 
+****************************************************************
+                Main Styling - Start - All Devices
+****************************************************************
+*/
 
 body {
     font-family: 'Zen Loop', cursive;
@@ -12,13 +14,22 @@ body {
     color: black;
 }
 
-/* Main Styling END - All Devices */
+/* 
+****************************************************************
+                Main Styling - End - All Devices
+****************************************************************
+*/
 
-/* Nav Bar START - All Devices */
+/* 
+****************************************************************
+                Navigation Bar - Start - All Devices
+****************************************************************
+*/
 
 .navbar {
     background-color: #d8d3cd;
     font-size: 1.4rem;
+    width: 100vw;
 }
 
 .navbar-brand {
@@ -59,9 +70,17 @@ body {
     transform: scale(1, 1);
 }
 
-/* Nav Bar END - All Devices */
+/* 
+****************************************************************
+                Navigation Bar - End - All Devices
+****************************************************************
+*/
 
-/* Hero Image Section START - All Devices */
+/* 
+****************************************************************
+                Hero Image - Start - All Devices
+****************************************************************
+*/
 
 .container-fluid-hero-img-md {
     padding-left: 0;
@@ -99,9 +118,17 @@ body {
     -o-transform: rotate(-20deg);
 }
 
-/* Hero Image Section END - All Devices */
+/* 
+****************************************************************
+                Hero Image - End - All Devices
+****************************************************************
+*/
 
-/* About Me Section START - Mobile and Tablets */
+/* 
+****************************************************************
+                About Me - Start - Mobile and Tablet
+****************************************************************
+*/
 
 .about-me-heading-sm {
     font-size: 3rem;
@@ -135,9 +162,17 @@ body {
     background-image: linear-gradient(to bottom, rgba(255, 255, 240, 1), rgba(255, 255, 240, 0));
 }
 
-/* About Me Section END - Mobile and Tablets */
+/* 
+****************************************************************
+                About Me - End - Mobile and Tablets
+****************************************************************
+*/
 
-/* About Me Section START - Laptops */
+/* 
+****************************************************************
+                About Me - Start - Desktop
+****************************************************************
+*/
 
 .about-me-heading-lg {
     margin-top: 6rem;
@@ -172,9 +207,17 @@ body {
     background-image: linear-gradient(to bottom, rgba(255, 255, 240, 1), rgba(255, 255, 240, 0));
 }
 
-/* About Me Section END - Laptops */
+/* 
+****************************************************************
+                About Me - End - Desktop
+****************************************************************
+*/
 
-/* Class Schedule Section START - Mobile and Tablets */
+/* 
+****************************************************************
+                Classes - Start - All Devices
+****************************************************************
+*/
 
 .yoga-classes-container {
     font-size: 1.5rem;
@@ -190,7 +233,17 @@ body {
     font-size: 1.7rem;
 }
 
-/* Event Section START - Mobile and Tablet Devices */
+/* 
+****************************************************************
+                Classes - End - All Devices
+****************************************************************
+*/
+
+/* 
+****************************************************************
+                Events - Start - Mobile and Tablets
+****************************************************************
+*/
 
 .events-bkground-img-sm {
     margin-top: 10rem;
@@ -217,9 +270,17 @@ body {
     font-size: 1.8rem;
 }
 
-/* Event Section End - Mobile and Tablet Devices */
+/* 
+****************************************************************
+                Events - End - Mobile and Tablets
+****************************************************************
+*/
 
-/* Event Section START - Desktop Devices */
+/* 
+****************************************************************
+                Events - Start - Desktop
+****************************************************************
+*/
 
 .events-bkground-img {
     position: relative;
@@ -248,7 +309,17 @@ body {
     text-align: center;
 }
 
-/* Event Section END - Desktop Devices */
+/* 
+****************************************************************
+                Events - End - Desktop
+****************************************************************
+*/
+
+/* 
+****************************************************************
+                Contact Me - Start - Desktop
+****************************************************************
+*/
 
 .offerings-heading {
     margin-top: 15rem;
@@ -258,7 +329,11 @@ body {
     position: relative;
 }
 
-/* Contact Me Section START - Desktop Devices */
+/* 
+****************************************************************
+                Contact Me - End - Desktop
+****************************************************************
+*/
 
 .contact-bkground-img {
     position: relative;
@@ -299,4 +374,8 @@ body {
     text-decoration: none;
 }
 
-/* Contact Me Section END - Desktop Devices */
+/* 
+****************************************************************
+                Contact Me - End - Desktop
+****************************************************************
+*/
