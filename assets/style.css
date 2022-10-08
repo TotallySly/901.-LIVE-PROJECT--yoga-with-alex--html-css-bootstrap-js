@@ -236,12 +236,14 @@ body {
 /* Event Section START - Desktop Devices */
 
 .events-bkground-img {
+    position: relative;
     margin-top: 30rem;
     height: 100vh;
     background-color: pink;
     background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .glass {
@@ -261,3 +263,48 @@ body {
 }
 
 /* Event Section END - Desktop Devices */
+
+.offerings-heading {
+    margin-top: 15rem;
+    font-size: 6rem;
+    font-family: 'Oooh Baby', cursive;
+}
+
+/* Contact Me Section START - Desktop Devices */
+
+.contact-bkground-img {
+    z-index: -1;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/images/website-images/yoga-pose-at-home-arm-stretch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);
+}
+
+.blend-background-lg-right {
+    position: absolute;
+    right: 0;
+    background-image: linear-gradient(to left, rgba(255, 255, 240, 1), rgba(255, 255, 250, 1), rgba(255, 255, 250, 0.99), rgba(255, 255, 250, 0.7), rgba(255, 255, 240, 0));
+    width: 75%;
+    height: 100%;
+}
+
+.offerings-text-container {
+    margin-top: 15rem;
+    padding: 3em;
+    transform: scaleX(-1);
+    font-size: 1.8rem;
+}
+
+.offerings-text {
+    padding: 0.5rem;
+}
+
+.contact-details {
+    padding: 1.5rem;
+}
+
+/* Contact Me Section END - Desktop Devices */
