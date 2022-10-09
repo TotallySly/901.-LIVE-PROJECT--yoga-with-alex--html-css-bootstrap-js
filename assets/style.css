@@ -190,13 +190,14 @@ body {
 ****************************************************************
 */
 
-.about-me-text-cursive-lg {
-    margin-top: 10rem;
+.cursive-about-me-text-lg {
+    margin-top: 7rem;
     font-family: 'Oooh Baby', cursive;
     font-size: 1.8rem;
 }
 
-.about-me-text-main-lg {
+.main-about-me-text-lg {
+    margin-top: 4rem;
     font-size: 1.6rem;
 }
 
