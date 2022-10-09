@@ -14,6 +14,21 @@ body {
     color: black;
 }
 
+.rotate {
+    transform: rotate(-20deg);
+    /* Safari */
+    -webkit-transform: rotate(-20deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-20deg);
+
+    /* IE */
+    -ms-transform: rotate(-20deg);
+
+    /* Opera */
+    -o-transform: rotate(-20deg);
+}
+
 /* 
 ****************************************************************
                 Main Styling - End - All Devices
@@ -91,7 +106,7 @@ body {
 }
 
 .bkground-img-md {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background-image: url('/assets/images/website-images/yoga-pose-marmaid-on-rock.png');
     background-repeat: no-repeat;
@@ -103,24 +118,28 @@ body {
     background-color: #fffff0;
 }
 
-.rotate {
-    transform: rotate(-20deg);
-    /* Safari */
-    -webkit-transform: rotate(-20deg);
+/* 
+****************************************************************
+                Hero Image - End - All Devices
+****************************************************************
+*/
 
-    /* Firefox */
-    -moz-transform: rotate(-20deg);
+/* 
+****************************************************************
+                About Me - Start - All Devices
+****************************************************************
+*/
 
-    /* IE */
-    -ms-transform: rotate(-20deg);
-
-    /* Opera */
-    -o-transform: rotate(-20deg);
+.about-me-heading {
+    font-size: 5rem;
+    font-family: 'Oooh Baby', cursive;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /* 
 ****************************************************************
-                Hero Image - End - All Devices
+                About Me - End - All Devices
 ****************************************************************
 */
 
@@ -130,22 +149,19 @@ body {
 ****************************************************************
 */
 
-.about-me-heading-sm {
-    font-size: 3rem;
-    font-family: 'Oooh Baby', cursive;
-}
-
-.about-me-text-main-sm {
-    font-size: 1.4rem;
-}
-
-.about-me-text-cursive-sm {
+.cursive-about-me-text-sm {
     font-size: 1.8rem;
     font-family: 'Oooh Baby', cursive;
+    margin-top: 3rem;
+}
+
+.main-about-me-text-sm {
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .btm-about-me-img-sm {
-    margin-top: 10rem;
     width: 100%;
     height: 100vh;
     background-color: pink;
@@ -174,20 +190,14 @@ body {
 ****************************************************************
 */
 
-.about-me-heading-lg {
-    margin-top: 6rem;
-    font-size: 6rem;
+.about-me-text-cursive-lg {
+    margin-top: 10rem;
     font-family: 'Oooh Baby', cursive;
+    font-size: 1.8rem;
 }
 
 .about-me-text-main-lg {
     font-size: 1.6rem;
-}
-
-.about-me-text-cursive-lg {
-    margin-top: 5rem;
-    font-family: 'Oooh Baby', cursive;
-    font-size: 1.8rem;
 }
 
 .btm-about-me-img-lg {
