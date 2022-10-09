@@ -230,9 +230,12 @@ body {
 ****************************************************************
 */
 
+.card {
+    margin-bottom: 2rem;
+}
+
 .yoga-classes-container {
     font-size: 1.5rem;
-    margin-top: 15em;
 }
 
 .size-image {
@@ -252,12 +255,29 @@ body {
 
 /* 
 ****************************************************************
+                Events - Start - All Devices
+****************************************************************
+*/
+
+#events {
+    font-size: 5rem;
+    font-family: 'Oooh Baby', cursive;
+    margin-top: 10rem;
+}
+
+/* 
+****************************************************************
+                Events - Start - All Devices
+****************************************************************
+*/
+
+/* 
+****************************************************************
                 Events - Start - Mobile and Tablets
 ****************************************************************
 */
 
 .events-bkground-img-sm {
-    margin-top: 10rem;
     width: 100%;
     height: 100vh;
     background-color: pink;
@@ -295,7 +315,6 @@ body {
 
 .events-bkground-img {
     position: relative;
-    margin-top: 30rem;
     height: 100vh;
     background-color: pink;
     background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
@@ -366,10 +385,10 @@ body {
 }
 
 .offerings-text-container {
-    padding: 4rem;
+    margin-right: 1.6rem;
     margin-top: 15rem;
     transform: scaleX(-1);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .offerings-text {
