@@ -395,8 +395,8 @@ body {
     font-size: 1.5rem;
     color: #fffff0;
     font-weight: bold;
-    letter-spacing: 0.2rem;
-    text-shadow: black 0 0 5px;
+    text-shadow: black 0 0 10px;
+    letter-spacing: 0.3rem;
 }
 
 .offerings-text-container-sm > a {
