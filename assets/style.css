@@ -378,21 +378,34 @@ body {
 
 .contact-me-overlay-sm {
     position: absolute;
-    height: 50vh;
-    width: 50vw;
+    height: fit-content;
+    width: fit-content;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10git gpx);
+    backdrop-filter: blur(40px);
     transform: scaleX(-1);
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    padding: 10rem 1rem;
 }
 
 .offerings-text-container-sm {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #fffff0;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-shadow: black 0 0 5px;
+}
+
+.offerings-text-container-sm > a {
+    text-decoration: none;
+    color: #fffff0;
+}
+
+.offerings-text-sm {
+    padding-bottom: 5rem;
 }
 
 /* 
@@ -438,6 +451,7 @@ body {
 
 .offerings-text-container > a {
     text-decoration: none;
+    color: black;
 }
 
 /* 
