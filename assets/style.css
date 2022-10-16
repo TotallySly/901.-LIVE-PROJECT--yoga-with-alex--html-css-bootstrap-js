@@ -119,7 +119,8 @@ body {
     font-family: 'Oooh Baby', cursive;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-color: pink;
+    background-color: #ffeedb;
+    color: #e85d75;
 }
 
 /* 
@@ -160,7 +161,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 240, 1), rgba(255, 255, 240, 0));
+    background-image: linear-gradient(to bottom, rgba(56, 102, 65, 1), rgba(56, 102, 65, 0));
 }
 
 /* 
@@ -182,7 +183,7 @@ body {
 }
 
 .main-about-me-text-lg {
-    margin-top: 4rem;
+    padding-top: 4rem;
     font-size: 1.6rem;
 }
 
@@ -200,11 +201,11 @@ body {
 
 .blend-background-lg {
     position: absolute;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 240, 1), rgba(255, 255, 240, 0));
+    background-image: linear-gradient(to bottom, rgba(56, 102, 65, 1), rgba(56, 102, 65, 0));
 }
 
 .about-me-colour {
-    background-color: green;
+    background-color: #386641;
 }
 
 /* 
