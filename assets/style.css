@@ -231,7 +231,7 @@ body {
 
 .card {
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: rem;
     background-color: rgba(229, 227, 201);
 }
 
@@ -246,7 +246,6 @@ body {
 
 .card-body > h5 {
     font-size: 1.7rem;
-    background-color: ;
 }
 
 .btn {
