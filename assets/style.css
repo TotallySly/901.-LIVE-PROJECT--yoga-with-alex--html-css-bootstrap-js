@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
+:root {
+    --main-colour: rgba(252, 248, 232);
+    --heading-colour: rgba(100, 126, 104);
+}
+
 /* 
 ****************************************************************
                 Main Styling - Start - All Devices
@@ -11,7 +16,7 @@
 body {
     font-family: 'Zen Loop', cursive;
     color: black;
-    background-color: rgb(180, 207, 176);
+    background-color: var(--main-colour);
 }
 
 /* 
@@ -27,19 +32,20 @@ body {
 */
 
 .navbar {
-    background-color: rgb(148, 180, 159);
-    font-size: 1.4rem;
+    background-color: var(--main-colour);
+    font-size: 1.8rem;
     width: 100vw;
 }
 
 .navbar-brand {
     font-size: 4rem;
     letter-spacing: 2px;
-    color: black;
+    color: var(--heading-colour);
 }
 
 .nav-link {
-    color: black;
+    color: var(--heading-colour);
+    font-weight: 500;
     letter-spacing: 2px;
     position: relative;
 }
@@ -51,7 +57,7 @@ body {
     height: 0.175rem;
     left: 0;
     bottom: 0;
-    background-color: black;
+    background-color: var(--heading-colour);
     transform: scale(0, 1);
     transition: transform 0.7s ease;
 }
@@ -66,7 +72,7 @@ body {
 }
 
 .active::after {
-    background-color: white;
+    background-color: var(--heading-colour);
     transform: scale(1, 1);
 }
 
@@ -100,7 +106,7 @@ body {
 }
 
 .about-me-sm {
-    background-color: #fcc8b2;
+    background-color: var(--main-colour);
 }
 
 /* 
@@ -120,7 +126,8 @@ body {
     font-family: 'Oooh Baby', cursive;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgb(229, 227, 201);
+    background-color: var(--main-colour);
+    color: var(--heading-colour);
 }
 
 /* 
@@ -136,7 +143,7 @@ body {
 */
 
 .about-me-bkground-sm {
-    background-color: rgb(180, 207, 176);
+    background-color: var(--main-colour);
 }
 
 .cursive-about-me-text-sm {
@@ -165,7 +172,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(56, 102, 65, 1), rgba(56, 102, 65, 0));
+    background-image: linear-gradient(to bottom, rgba(252, 248, 232, 1), rgba(252, 248, 232, 0));
 }
 
 /* 
@@ -192,7 +199,7 @@ body {
 }
 
 .btm-about-me-img-lg {
-    margin-top: 20rem;
+    margin-top: 10rem;
     width: 100%;
     height: 100vh;
     background-color: pink;
@@ -205,11 +212,11 @@ body {
 
 .blend-background-sm {
     position: absolute;
-    background-image: linear-gradient(to bottom, rgba(180, 207, 176, 1), rgba(180, 207, 176, 0));
+    background-image: linear-gradient(to bottom, rgba(252, 248, 232, 1), rgba(252, 248, 232, 0));
 }
 
 .about-me-colour {
-    background-color: rgb(180, 207, 176);
+    background-color: var(--main-colour);
 }
 
 /* 
@@ -230,9 +237,8 @@ body {
 }
 
 .card {
-    margin-top: 10rem;
-    margin-bottom: rem;
-    background-color: rgba(229, 227, 201);
+    margin-bottom: 5rem;
+    background-color: rgb(218, 226, 182);
 }
 
 .yoga-classes-container {
@@ -249,7 +255,7 @@ body {
 }
 
 .btn {
-    background-color: #2e294e;
+    background-color: var(--main-colour);
 }
 
 /* 
@@ -269,7 +275,8 @@ body {
     font-family: 'Oooh Baby', cursive;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgb(229, 227, 201);
+    background-color: var(--main-colour);
+    color: var(--heading-colour);
 }
 
 /* 
@@ -304,7 +311,7 @@ body {
     border: 2px solid transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
-    color: #fffff0;
+    color: var(--main-colour);
     font-size: 1.8rem;
 }
 
@@ -363,7 +370,7 @@ body {
     font-family: 'Oooh Baby', cursive;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgb(229, 227, 201);
+    background-color: var(--heading-colour);
     z-index: 10;
     position: relative;
 }
@@ -399,13 +406,13 @@ body {
     background-size: cover;
     background-position: center;
     transform: scaleX(-1);
-    box-shadow: 0px 0px 20px 20px #fffff0 inset;
+    box-shadow: 0px 0px 20px 20px #fcf8e8 inset;
 }
 
 .blend-background-lg-right {
     position: absolute;
     right: 0;
-    background-image: linear-gradient(to left, rgba(255, 255, 240, 1), rgba(255, 255, 250, 1), rgba(255, 255, 250, 0.99), rgba(255, 255, 250, 0.7), rgba(255, 255, 240, 0));
+    background-image: linear-gradient(to left, rgba(252, 248, 232, 1), rgba(252, 248, 232, 1), rgba(252, 248, 232, 0.99), rgba(252, 248, 232, 0.7), rgba(252, 248, 232, 0));
     width: 75%;
     height: 100%;
 }
@@ -431,7 +438,7 @@ body {
 
 .offerings-text-container > a {
     text-decoration: none;
-    color: #2e294e;
+    color: var(--heading-colour);
 }
 
 /* 
