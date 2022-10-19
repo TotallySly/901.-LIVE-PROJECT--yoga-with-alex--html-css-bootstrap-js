@@ -199,9 +199,9 @@ body {
 }
 
 .btm-about-me-img-lg {
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
-    height: 100vh;
+    height: 100vh;git 
     background-color: pink;
     background-image: url('/assets/images/website-images/childs-pose-test.png');
     background-size: cover;
