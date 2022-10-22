@@ -190,12 +190,14 @@ body {
 
 .cursive-about-me-text-lg {
     padding-top: 7rem;
+    padding-bottom: 3rem;
     font-family: 'Oooh Baby', cursive;
     font-size: 1.8rem;
 }
 
 .main-about-me-text-lg {
     padding-top: 4rem;
+    padding-bottom: 3rem;
     font-size: 1.6rem;
 }
 
@@ -250,6 +252,11 @@ body {
 .size-image {
     height: 12rem;
     width: 17rem;
+}
+
+.card > img {
+    margin-top: 1rem;
+    border: solid 1px white;
 }
 
 .card-body > h5 {
