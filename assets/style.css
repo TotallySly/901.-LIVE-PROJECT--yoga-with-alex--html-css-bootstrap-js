@@ -163,7 +163,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: pink;
-    background-image: url('/assets/images/website-images/childs-pose-test.png');
+    background-image: url('../assets/images/website-images/childs-pose-test.png');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -204,7 +204,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: pink;
-    background-image: url('/assets/images/website-images/childs-pose-test.png');
+    background-image: url('../assets/images/website-images/childs-pose-test.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -299,7 +299,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: pink;
-    background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset.png');
+    background-image: url('../assets/images/website-images/yoga-pose-on-rock-sunset.png');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -335,7 +335,7 @@ body {
     position: relative;
     height: 100vh;
     background-color: pink;
-    background-image: url('/assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
+    background-image: url('../assets/images/website-images/yoga-pose-on-rock-sunset-two.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -405,7 +405,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url('/assets/images/website-images/yoga-pose-at-home-arm-stretch.png');
+    background-image: url('../assets/images/website-images/yoga-pose-at-home-arm-stretch.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
