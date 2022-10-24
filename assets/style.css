@@ -63,10 +63,6 @@ body {
     transition: transform 0.7s ease;
 }
 
-.nav-link:hover::after {
-    transform: scale(1, 1);
-}
-
 .nav-link:hover {
     color: var(--main-colour);
     font-weight: bold;
@@ -74,7 +70,6 @@ body {
 
 .active::after {
     background-color: var(--heading-colour);
-    transform: scale(1, 1);
 }
 
 /* 
@@ -452,8 +447,18 @@ body {
     color: var(--heading-colour);
 }
 
+.offerings-text-container > a:hover {
+    font-weight: bold;
+}
+
 /* 
 ****************************************************************
                 Contact Me - End - Tablet and Desktop
 ****************************************************************
 */
+
+.footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--heading-colour);
+}
