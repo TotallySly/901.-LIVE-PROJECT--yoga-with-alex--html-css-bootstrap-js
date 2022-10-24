@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
 :root {
@@ -456,9 +455,3 @@ body {
                 Contact Me - End - Tablet and Desktop
 ****************************************************************
 */
-
-.footer {
-    height: 10vh;
-    width: 100vw;
-    background-color: var(--heading-colour);
-}
